@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/ojc1hor.css">
+    <link rel="stylesheet" href="https://use.typekit.net/qck5zvm.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <title>Home</title>
+
+</head>
+<body>
+  <div class="home_body_content">
+
+    <img id="robin" class="robin" src="images/logo_singleline_white.svg">
+
+    <nav class="navbar">
+        <div class="navelement">
+            <a href="index.html">
+                <img class="logo" src="images/anagram_white.svg" alt="Robin de Haan">
+            </a>
+            <a id="about_btn" class="about_btn">
+                <h1>PROJECTS<span class="and_sign"><br>&</span>ABOUT</h1>
+            </a>
+        </div>
+    </nav>
+
+
+    <a class="section7" href="mirage.html">
+        <h1 class="section_title">mirage</h1>
+        <h1 class="section_subtitle">( under construction )</h1>
+        <h1 class="section_number">( 2 )</h1>
+    </a>
+
+    <a class="section6" href="frankenstein.html">
+        <h1 class="section_title">the story of frankenstein</h1>
+        <h1 class="section_subtitle">book design</h1>
+        <h1 class="section_number">( 1 )</h1>
+    </a>
+
+    <a class="section8" href="event_photography.html">
+        <h1 class="section_title">event photography</h1>
+        <h1 class="section_number">( 3 )</h1>
+    </a>
+
+    <a class="section1" href="thesisyphean.html">
+        <h1 class="section_title">the sisyphean broadcasting company</h1>
+        <h1 class="section_subtitle">book design</h1>
+          <h1 class="section_number">( 4 )</h1>
+    </a>
+
+    <a class="section2" href="openhuiscrooswijck.html">
+        <h1 class="section_title">open huis crooswijck</h1>
+        <h1 class="section_subtitle">book design</h1>
+          <h1 class="section_number">( 5 )</h1>
+    </a>
+
+    <a class="section3" href="hyfe.html">
+        <h1 class="section_title">hyfe no.#</h1>
+        <h1 class="section_subtitle">magazine production</h1>
+          <h1 class="section_number">( 6 )</h1>
+    </a>
+
+    <div class="footer">
+        <h3 class="footer_back">back to top</h3>
+    </div>
+  </div>
+
+    <div id="modal" class="modal">
+       <div class="modal_nav">
+         <a id="logo" href="#">
+             <img class="logo" src="images/anagram_black.svg" alt="Robin de Haan">
+         </a>
+         <a class="close_btn">
+           <h3>CLOSE</h3>
+         </a>
+     </div>
+
+       <div class="modal_menu">
+       <h3 class="modal_menu_title">PROJECTS</h3>
+
+       <ol>
+         <li><span><a href="mirage.html">mirage</a></span></li>
+         <li><span><a href="frankenstein.html">frankenstein</a></span></li>
+         <li><span><a href="event_photography.html">event photography</a></span></li>
+         <li><span><a href="thesisyphean.html">the sisyphean</a></span></li>
+         <li><span><a href="crooswijck.html">open huis crooswijck</a></span></li>
+         <li><span><a href="hyfe.html">hyfe no.</a></span></li>
+       </ol>
+     </div>
+
+       <div class="modal_text">
+         <h3 class="modal_text_title">ABOUT</h3>
+         <p><span class="p_italics">Robin de haan</span> is a graphic designer based in
+           <span class="p_italics">Rotterdam, The Netherlands</span>,
+           specialised in experimental book / publication design and web-development.
+           With an interest in understanding (art) history to try to grasp the present,
+           her book designs make use of metaphors to explore different facets of our
+           human nature and current social landscape. Reflections, patterns and narrative
+           devices have been recurring elements, whereas bold color contrasts, nostalgic
+           photography and a sensibility to typography define her work.
+         </p>
+      </div>
+      
+      <div class="modal_contact">
+          <a class="email">robindehaandesign@gmail.com</a>
+          <a class="insta" href="https://www.instagram.com/robin__dehaan/">@robin__dehaan</a>
+          <a class="tel">+31 6 156 228 60</a>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      var modal = document.getElementById("modal");
+      var btn = document.getElementById("about_btn");
+      var span = document.getElementsByClassName("close_btn")[0];
+      var logo = document.getElementById("logo");
+      var robin = document.getElementById("robin");
+
+      btn.onclick = function() {
+        modal.style.display = "block";
+      }
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+      logo.onclick = function() {
+        modal.style.display = "none";
+      }
+
+    </script>
+</body>
+</html>

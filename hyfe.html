@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/ojc1hor.css">
+    <link rel="stylesheet" href="https://use.typekit.net/qck5zvm.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <title>Hyfe</title>
+
+</head>
+<body>
+    <div class="project3_body_content">
+
+      <nav class="navbar">
+          <div class="navelement">
+              <a href="index.html">
+                  <img class="logo" src="images/anagram_white.svg" alt="Robin de Haan">
+              </a>
+              <a id="about_btn" class="about_btn">
+                  <h1>PROJECTS<span class="and_sign"><br>&</span>ABOUT</h1>
+              </a>
+          </div>
+      </nav>
+
+        <div class="coverimg" id="coverimg3">
+          <h1 class="arrow">&#8595;</h1>
+        </div>
+
+        <div class="title">
+          <h3 class="project_title">hyfe no.#</h3>
+          <h3 class="project_subtitle">magazine</h3>
+          <h3 class="project_number">( 6 )</h3>
+        </div>
+
+        <div class="intro">
+          <p><span class="p_italics">Hyfe</span> is the name of the long, banching fibres of a fungus. This A6 sized magazine grows acociatively and partially uncontrolled in every direction.
+             One editor, a word-list, and a co-author who suggest the next author makes this series grow further. Every issue is the visible outcome of this invisible network.</p>
+
+             <p><span class="p_italics">Hyfe</span> is the philosophical magazine, written and edited independently by <span class="p_italics">Maurice Specht</span>. Within the riso-based publishing house <span class="p_italics">Rimshot-Riso</span>, I was
+             partly responsible for the production and publication of the 5 first issues of this magazine.
+          </p>
+        </div>
+
+        <div class="hyfe_main">
+          <img src="images/hyfeNo5_flipthrough.gif" alt="" style="width:100%">
+        </div>
+
+        <div class="footer">
+            <h3 class="footer_back">back to top</h3>
+        </div>
+
+        <div id="modal" class="modal">
+           <div class="modal_nav">
+             <a id="logo" href="#">
+                 <img class="logo" src="images/anagram_black.svg" alt="Robin de Haan">
+             </a>
+             <a class="close_btn">
+               <h3>CLOSE</h3>
+             </a>
+         </div>
+
+           <div class="modal_menu">
+           <h3 class="modal_menu_title">PROJECTS</h3>
+
+           <ol>
+             <li><span><a href="mirage.html">mirage</a></span></li>
+             <li><span><a href="frankenstein.html">frankenstein</a></span></li>
+             <li><span><a href="event_photography.html">event photography</a></span></li>
+             <li><span><a href="thesisyphean.html">the sisyphean</a></span></li>
+             <li><span><a href="crooswijck.html">open huis crooswijck</a></span></li>
+             <li><span><a href="hyfe.html">hyfe no.</a></span></li>
+           </ol>
+         </div>
+
+           <div class="modal_text">
+             <h3 class="modal_text_title">ABOUT</h3>
+             <p><span class="p_italics">Robin de haan</span> is a graphic designer based in
+               <span class="p_italics">Rotterdam, The Netherlands</span>,
+               specialised in experimental book / publication design and web-development.
+               With an interest in understanding (art) history to try to grasp the present,
+               her book designs make use of metaphors to explore different facets of our
+               human nature and current social landscape. Reflections, patterns and narrative
+               devices have been recurring elements, whereas bold color contrasts, nostalgic
+               photography and a sensibility to typography define her work.
+             </p>
+          </div>
+          <div class="modal_contact">
+              <a class="email">robindehaandesign@gmail.com</a>
+              <a class="insta" href="https://www.instagram.com/robin__dehaan/">@robin__dehaan</a>
+              <a class="tel">+31 6 156 228 60</a>
+          </div>
+        </div>
+
+        <script type="text/javascript">
+          var modal = document.getElementById("modal");
+          var btn = document.getElementById("about_btn");
+          var span = document.getElementsByClassName("close_btn")[0];
+          var logo = document.getElementById("logo");
+          var robin = document.getElementById("robin");
+
+          btn.onclick = function() {
+            modal.style.display = "block";
+          }
+          span.onclick = function() {
+            modal.style.display = "none";
+          }
+          logo.onclick = function() {
+            modal.style.display = "none";
+          }
+
+        </script>
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/ojc1hor.css">
+    <title>Document</title>
+
+</head>
+<body>
+    <div class="project2_body_content">
+
+      <nav class="navbar">
+          <div class="navelement">
+              <a href="index.html">
+                  <img class="logo" src="images/anagram_white.svg" alt="Robin de Haan">
+              </a>
+              <a id="about_btn" class="about_btn">
+                  <h1>PROJECTS<span class="and_sign"><br>&</span>ABOUT</h1>
+              </a>
+          </div>
+      </nav>
+
+
+        <div class="coverimg" id="coverimg2" style="width:100vw; height: 100vh;"></div>
+        <div class="title">
+            <div class="title_h3">
+                <h3>book photography series</h3>
+            </div>
+            <div class="title_h4">
+                <h2>Openhuis Crooswijck</h2>
+            </div>
+        </div>
+
+        <div class="intro">
+            <div>
+                <p>
+                    This little book was made to show my experience living anti-squad in the
+                    <i>‘poorest zip-code of the Netherlands’</i>. Crooswijck is known as a volkswijk,
+                    a working class district where the older generations of workers suddenly had
+                    to share the area with newcomers after the migrations in the 60’s, and more
+                    recently, both of these groups are pushed away by the municipality, who pushed
+                    through with developing plans that are gonna raise the housing prices to attract wealthier incomes. <br><br>
+
+                    It was a period in which I became aware of the problems surrounding the trend
+                    of gentrification in the city. Mainly because I met a few Crooswijckers who asked
+                    me about my block and expressed their concerns about the development plans. I
+                    started wondering what my part was in this story, and how the pressure from the
+                    municipality changed the dynamics in the neighbourhood. <br><br>
+
+                    I decided the best way to find out was to talk to people in the block and ask them what their thoughts were. <br><br>
+                </p>
+            </div>
+        </div>
+
+        <div class="cr_main">
+            <img src="images/crooswijck.gif" alt="" style: width="100%" right="0">
+        </div>
+
+        <div class="cr_side">
+            <div id="gallery" class="container-fluid">
+                <img src="images/crooswijck_1.jpg" class="img-responsive">
+                <img src="images/crooswijck_2.jpg" class="img-responsive">
+                <img src="images/crooswijck_3.jpg" class="img-responsive">
+                <img src="images/crooswijck_4.jpg" class="img-responsive">
+                <img src="images/crooswijck_5.jpg" class="img-responsive">
+                <img src="images/crooswijck_6.jpg" class="img-responsive">
+                <img src="images/crooswijck_7.jpg" class="img-responsive">
+                <img src="images/crooswijck_8.jpg" class="img-responsive">
+                <img src="images/crooswijck_9.jpg" class="img-responsive">
+                <img src="images/crooswijck_10.jpg" class="img-responsive">
+                <img src="images/crooswijck_11.jpg" class="img-responsive">
+            </div>
+        </div>
+
+        <div class="footer">
+            <h3 class="footer_back">back to top</h3>
+        </div>
+
+        <div id="modal" class="modal">
+           <div class="modal_nav">
+             <a id="logo" href="#">
+                 <img class="logo" src="images/anagram_black.svg" alt="Robin de Haan">
+             </a>
+             <a class="close_btn">
+               <h3>CLOSE</h3>
+             </a>
+         </div>
+
+           <div class="modal_menu">
+           <h3 class="modal_menu_title">PROJECTS</h3>
+
+           <ol>
+             <li><span><a href="mirage.html">mirage</a></span></li>
+             <li><span><a href="frankenstein.html">frankenstein</a></span></li>
+             <li><span><a href="event_photography.html">event photography</a></span></li>
+             <li><span><a href="thesisyphean.html">the sisyphean</a></span></li>
+             <li><span><a href="crooswijck.html">open huis crooswijck</a></span></li>
+             <li><span><a href="hyfe.html">hyfe no.</a></span></li>
+           </ol>
+         </div>
+
+           <div class="modal_text">
+             <h3 class="modal_text_title">ABOUT</h3>
+             <p><span class="p_italics">Robin de haan</span> is a graphic designer based in
+               <span class="p_italics">Rotterdam, The Netherlands</span>,
+               specialised in experimental book / publication design and web-development.
+               With an interest in understanding (art) history to try to grasp the present,
+               her book designs make use of metaphors to explore different facets of our
+               human nature and current social landscape. Reflections, patterns and narrative
+               devices have been recurring elements, whereas bold color contrasts, nostalgic
+               photography and a sensibility to typography define her work.
+             </p>
+          </div>
+          <div class="modal_contact">
+              <a class="email">robindehaandesign@gmail.com</a>
+              <a class="insta" href="https://www.instagram.com/robin__dehaan/">@robin__dehaan</a>
+              <a class="tel">+31 6 156 228 60</a>
+          </div>
+        </div>
+
+        <script type="text/javascript">
+          var modal = document.getElementById("modal");
+          var btn = document.getElementById("about_btn");
+          var span = document.getElementsByClassName("close_btn")[0];
+          var logo = document.getElementById("logo");
+          var robin = document.getElementById("robin");
+
+          btn.onclick = function() {
+            modal.style.display = "block";
+          }
+          span.onclick = function() {
+            modal.style.display = "none";
+          }
+          logo.onclick = function() {
+            modal.style.display = "none";
+          }
+
+        </script>
+    </div>
+</body>
+</html>
